@@ -1,0 +1,12 @@
+.menuUnhide {
+  margin-top: -45vh;
+  margin-left: 45vw;
+  transform: scale(0);
+  transition: all 0.7s ease-in-out;
+}
+
+.menuUnhide.open {
+  margin-top: 0vh;
+  margin-left: 0vw;
+  transform: scale(1);
+}
